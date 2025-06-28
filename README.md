@@ -12,9 +12,26 @@
 
 ## Group Members
 **MANDATORY: Add the full names of all group members here:**
-- [Member 1 Full Name]
-- [Member 2 Full Name]
+- [Ariel Jankelowitz]
+- [David Dusi]
 
 ## Technical Details
 - Run the server with: `node index.js`
 - Access at http://localhost:8000 in your web browser
+
+# Basketball Court Project
+
+## Screenshots
+
+### Overall view of the basketball court with hoops
+![Overall Court View](screenshots/court_view.png)
+
+### Close-up view of basketball hoops with nets
+![Hoop Close-Up](screenshots/hoops_closeup.png)
+
+### Basketball positioned at center court
+![Ball at Center Court](screenshots/ball_center.png)
+
+### Camera controls functionality demonstration
+![Camera Controls](screenshots/camera_controls.png)
+
