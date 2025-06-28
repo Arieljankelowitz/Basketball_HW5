@@ -29,14 +29,8 @@ function degrees_to_radians(degrees) {
 
 // Create basketball court
 function createBasketballCourt() {
-  // Court floor - just a simple brown surface
-  // const courtGeometry = new THREE.BoxGeometry(30, 0.2, 15);
-  // const courtMaterial = new THREE.MeshPhongMaterial({ 
-  //   color: 0xc68642,  // Brown wood color
-  //   shininess: 50
-  // });
   const court = new Court()
-  court.receiveShadow = true;
+  court.receiveShadow = true; // Ensures the entire group can receive shadows from lights
   scene.add(court);
   
   // Note: All court lines, hoops, and other elements have been removed
